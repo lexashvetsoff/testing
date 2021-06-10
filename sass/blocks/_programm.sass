@@ -1,0 +1,111 @@
+.programm
+    padding-top: 100px
+    padding-bottom: 70px
+    &-wrapper
+        width: 750px
+        margin: auto
+    &-first
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-bottom: 80px
+        &__title
+            margin-top: 30px
+            margin-bottom: 30px
+            font-style: normal
+            font-weight: bold
+            font-size: 48px
+            line-height: 140%
+            text-align: center
+            color: $color-light
+        &__text
+            margin: 0
+            width: 411px
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 160%
+            text-align: center
+            color: $color-light
+            opacity: 0.5
+    &-grid
+        width: 582px
+        margin: auto
+        display: grid
+        grid-template-columns: 1fr 6px 1fr
+        grid-template-rows: repeat(7, 92px)
+        &__item
+            display: flex
+            align-items: center
+            justify-content: space-between
+            width: 288px
+            &--left
+                text-align: right
+        &__wrap-item
+            width: 228px
+        &__title
+            margin-top: 5px
+            margin-bottom: 15px
+            font-style: normal
+            font-weight: normal
+            font-size: 14px
+            line-height: 160%
+            // text-align: right
+            color: $color-light
+            opacity: 0.5
+        &__text
+            margin: 0
+            font-style: normal
+            font-weight: normal
+            font-size: 18px
+            line-height: 160%
+            // text-align: right
+            color: $color-light
+        &__obj
+            display: block
+            width: 40px
+            height: 1px
+            background-color: rgba($color-light, 0.3)
+.item
+    &--1
+        grid-column-start: 1
+        grid-column-end: 2
+        grid-row-start: 1
+        grid-row-end: 2
+    &--2
+        grid-column-start: 3
+        grid-column-end: 4
+        grid-row-start: 2
+        grid-row-end: 3
+    &--3
+        grid-column-start: 1
+        grid-column-end: 2
+        grid-row-start: 3
+        grid-row-end: 4
+    &--4
+        grid-column-start: 3
+        grid-column-end: 4
+        grid-row-start: 4
+        grid-row-end: 5
+    &--5
+        grid-column-start: 1
+        grid-column-end: 2
+        grid-row-start: 5
+        grid-row-end: 6
+    &--6
+        grid-column-start: 3
+        grid-column-end: 4
+        grid-row-start: 6
+        grid-row-end: 7
+    &--7
+        grid-column-start: 1
+        grid-column-end: 2
+        grid-row-start: 7
+        grid-row-end: 8
+.vertical
+    &-line
+        grid-column-start: 2
+        grid-column-end: 3
+        grid-row-start: 1
+        grid-row-end: 8
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%)

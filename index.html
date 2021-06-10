@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First course in computer assembly</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper navbar--mobile_fixed">
+            <nav class="navbar ">
+                <a href="#" class="navbar__logo-link">
+                    <img src="image/header/logo.svg" alt="Logo" class="navbar__logo-img">
+                </a>
+
+                <div class="navbar-menu__wrapper">
+                    <ul class="navbar-menu">
+                        <li class="navbar-menu__item">
+                            <a href="#" class="navbar-menu__link">Главная</a>
+                        </li>
+                        <li class="navbar-menu__item">
+                            <a href="#" class="navbar-menu__link">Курсы</a>
+                        </li>
+                        <li class="navbar-menu__item">
+                            <a href="#" class="navbar-menu__link">Расписание</a>
+                        </li>
+                        <li class="navbar-menu__item">
+                            <a href="#" class="navbar-menu__link">Преподаватели</a>
+                        </li>
+                        <li class="navbar-menu__item">
+                            <a href="#" class="navbar-menu__link">Рассылка</a>
+                        </li>
+                        <li class="navbar-menu__item">
+                            <a href="#" class="navbar-menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                    <!-- /.navbar-menu -->
+                </div>
+                <!-- /.navbar-menu__wrapper -->
+
+                <a href="#" class="navbar-login">Зайти в кабинет</a>     
+                
+                <button class="menu-btn navbar__menu-btn">
+                    <span class="menu-btn__line"></span>
+                    <span class="menu-btn__line"></span>
+                    <span class="menu-btn__line"></span>
+                </button>
+                <!-- /.navbar__menu-btn кнопка мобильного меню -->
+
+            </nav>
+            <!-- /.navbar -->
+        </div>
+        <!-- /.header-wrapper -->
+
+        <div class="header-main">
+            <div class="container">
+                <h1 class="header-main__title">Первый курс</h1>
+                <h2 class="header-main__subtitle">по компьютерной сборке</h2>
+                <div class="header-timer">
+                    <div class="header-timer__item">
+                        <span id="timer-days" class="header-timer__number"></span>
+                        <span class="header-timer__text">Дней</span>
+                    </div>
+                    <!-- /.header-timer__item -->
+            
+                    <div class="header-timer__item">
+                        <span id="timer-hours" class="header-timer__number"></span>
+                        <span class="header-timer__text">Часов</span>
+                    </div>
+                    <!-- /.header-timer__item -->
+            
+                    <div class="header-timer__item">
+                        <span id="timer-mins" class="header-timer__number"></span>
+                        <span class="header-timer__text">Минут</span>
+                    </div>
+                    <!-- /.header-timer__item -->
+            
+                    <div class="header-timer__item">
+                        <span id="timer-secs" class="header-timer__number"></span>
+                        <span class="header-timer__text">Секунд </span>
+                    </div>
+                    <!-- /.header-timer__item -->
+                </div>
+                <!-- /.header-timer -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.header-main -->
+
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom__wrapper">
+                    <a href="#" class="header-bottom__btn">Заказать курс</a>
+
+                    <div class="students">
+                        <div class="students__item">
+                            <span class="students__text">Учеников всего:</span>
+                            <span class="students__count">200</span>
+                        </div>
+                        <!-- /.students__item -->
+
+                        <div class="students__item">
+                            <span class="students__text">Успешно закончили курс:</span>
+                            <span class="students__count">190</span>
+                        </div>
+                        <!-- /.students__item -->
+                    </div>
+                    <!-- /.students -->
+
+                    <div class="progress">
+                        <div class="progress-students">
+                            <span class="progress-students__text">Заработано учениками:</span>
+                            <span class="progress-students__count">400 000₽</span>
+                        </div>
+                        <!-- /.progress-students -->
+
+                        <div class="progress-bar">
+                            <span class="progress-bar__done"></span>
+                            <span class="progress-bar__more"></span>
+                        </div>
+                        <!-- /.progress-bar -->
+
+                        <div class="progress-count">
+                            <span class="progress-count__text">0</span>
+                            <span class="progress-count__text">1 000 000₽</span>
+                        </div>
+                        <!-- /.progress-count -->
+                    </div>
+                    <!-- /.progress -->
+                </div>
+                <!-- /.header-bottom__wrapper -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.header-bottom -->
+    </header>
+    <!-- /.header -->
+
+    <section class="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="image/about/sys-block.png" alt="system unit" class="about-image__comp">
+                </div>
+                <!-- /.about-image -->
+
+                <div class="about-description">
+                    <h2 class="about-description__title">Чем мы занимаемся?</h2>
+                    <p class="about-description__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse
+                        egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus
+                        praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit,
+                        sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum
+                        placerat nisi, lobortis.    
+                    </p>
+                </div>
+                <!-- /.about-text -->
+            </div>
+            <!-- /.about-wrapper -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.about -->
+
+    <section class="fast-start">
+        <div class="container">
+            <div class="start-first">
+                <img src="image/fast-start/start-logo.svg" alt="start-first logo" class="start-first__logo">
+                <h2 class="start-first__title">Быстрый старт</h2>
+            </div>
+            <!-- /.start-first -->
+
+            <p class="fast-start__text">
+                Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+            </p>
+            
+            <div class="start-info">
+                <div class="start-info__item">
+                    <h2 class="start-info__title">100%</h2>
+                    <span class="start-info__object start-info__object--1"></span>
+                    <p class="start-info__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat
+                        egestas fringilla mi porttitor tempus. Placerat dui.
+                    </p>
+                </div>
+                <!-- /.start-info__item -->
+
+                <div class="start-info__item">
+                    <h2 class="start-info__title">75%</h2>
+                    <span class="start-info__object start-info__object--2"></span>
+                    <p class="start-info__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat
+                        egestas fringilla mi porttitor tempus. Placerat dui.
+                    </p>
+                </div>
+                <!-- /.start-info__item -->
+
+                <div class="start-info__item">
+                    <h2 class="start-info__title">50%</h2>
+                    <span class="start-info__object start-info__object--3"></span>
+                    <p class="start-info__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat
+                        egestas fringilla mi porttitor tempus. Placerat dui.
+                    </p>
+                </div>
+                <!-- /.start-info__item -->
+
+                <div class="start-info__item">
+                    <h2 class="start-info__title">Итог</h2>
+                    <span class="start-info__object start-info__object--4"></span>
+                    <p class="start-info__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat
+                        egestas fringilla mi porttitor tempus. Placerat dui.
+                    </p>
+                </div>
+                <!-- /.start-info__item -->
+            </div>
+            <!-- /.start-info -->
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.fast-start -->
+
+    <section class="offer">
+        <div class="container">
+            <h2 class="offer__title">Получите профессию прямо сейчас</h2>
+
+            <div class="advantages">
+                <div class="advantages__item">
+                    <img src="image/offer/practic.svg" alt="icon: practic" class="advantages__icon">
+                    <h3 class="advantages__title">Только практические навыки в работе</h3>
+                    <p class="advantages__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat
+                        egestas fringilla mi porttitor tempus. Placerat dui.
+                    </p>
+                </div>
+                <!-- /.advantages__item -->
+
+                <div class="advantages__item">
+                    <img src="image/offer/work.svg" alt="icon: work" class="advantages__icon">
+                    <h3 class="advantages__title">Работа на самом современном оборудовании</h3>
+                    <p class="advantages__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat
+                        egestas fringilla mi porttitor tempus. Placerat dui.
+                    </p>
+                </div>
+                <!-- /.advantages__item -->
+
+                <div class="advantages__item">
+                    <img src="image/offer/sertif.svg" alt="icon: certificate" class="advantages__icon">
+                    <h3 class="advantages__title">Сертификация по окончании обучения</h3>
+                    <p class="advantages__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat
+                        egestas fringilla mi porttitor tempus. Placerat dui.
+                    </p>
+                </div>
+                <!-- /.advantages__item -->
+            </div>
+            <!-- /.advantages -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.offer -->
+
+    <section class="brends">
+        <div class="container">
+            <div class="brends-first">
+                <img src="image/brends/brends-logo.svg" alt="brends-first logo" class="brends-first__logo">
+                <h2 class="brends-first__title">Партнеры - топовые бренды</h2>
+            </div>
+            <!-- /.brends-first -->
+
+            <div class="brends-wrapper">
+                <div class="brends-wrapper__item brends-wrapper__item--it1">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+
+                <div class="brends-wrapper__item brends-wrapper__item--it2">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+
+                <div class="brends-wrapper__item brends-wrapper__item--it3">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+
+                <div class="brends-wrapper__item brends-wrapper__item--it4">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+
+                <div class="brends-wrapper__item brends-wrapper__item--it5">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+
+                <div class="brends-wrapper__item brends-wrapper__item--it6">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+
+                <div class="brends-wrapper__item brends-wrapper__item--it7">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+
+                <div class="brends-wrapper__item brends-wrapper__item--it8">
+                    <img src="image/brends/brend.png" alt="logo: brend" class="brends-wrapper__image">
+                </div>
+                <!-- /.brends-wrapper__item -->
+            </div>
+            <!-- /.brends-wrapper -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.brends -->
+
+    <section class="programm">
+        <div class="programm-wrapper">
+            <div class="programm-first">
+                <img src="image/programm/programm-logo.svg" alt="logo: programm-first" class="programm-first__logo">
+                <h2 class="programm-first__title">Программа обучения</h2>
+                <p class="programm-first__text">
+                    Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+                </p>
+            </div>
+            <!-- /.programm-first -->
+
+            <div class="programm-grid">
+                <div class="programm-grid__item programm-grid__item--left item--1">
+                    <div class="programm-grid__wrap-item">
+                        <h3 class="programm-grid__title">Неделя №1</h3>
+                        <p class="programm-grid__text">
+                            Красивая часть курса, которая помогает в успехе
+                        </p>
+                    </div>
+                    <!-- /.programm-grid__wrap-item -->
+                    <span class="programm-grid__obj"></span>
+                </div>
+                <!-- /.programm-grid__item -->
+
+                <span class="vertical-line"></span>
+
+                <div class="programm-grid__item item--2">
+                    <span class="programm-grid__obj"></span>
+                    <div class="programm-grid__wrap-item">
+                        <h3 class="programm-grid__title">Неделя №2</h3>
+                        <p class="programm-grid__text">
+                            Красивая часть курса, которая помогает в успехе
+                        </p>
+                    </div>
+                    <!-- /.programm-grid__wrap-item -->
+                </div>
+                <!-- /.programm-grid__item -->
+
+                <div class="programm-grid__item programm-grid__item--left item--3">
+                    <div class="programm-grid__wrap-item">
+                        <h3 class="programm-grid__title">Неделя №3</h3>
+                        <p class="programm-grid__text">
+                            Красивая часть курса, которая помогает в успехе
+                        </p>
+                    </div>
+                    <!-- /.programm-grid__wrap-item -->
+                    <span class="programm-grid__obj"></span>
+                </div>
+                <!-- /.programm-grid__item -->
+
+                <div class="programm-grid__item item--4">
+                    <span class="programm-grid__obj"></span>
+                    <div class="programm-grid__wrap-item">
+                        <h3 class="programm-grid__title">Неделя №4</h3>
+                        <p class="programm-grid__text">
+                            Красивая часть курса, которая помогает в успехе
+                        </p>
+                    </div>
+                    <!-- /.programm-grid__wrap-item -->
+                </div>
+                <!-- /.programm-grid__item -->
+
+                <div class="programm-grid__item programm-grid__item--left item--5">
+                    <div class="programm-grid__wrap-item">
+                        <h3 class="programm-grid__title">Неделя №5</h3>
+                        <p class="programm-grid__text">
+                            Красивая часть курса, которая помогает в успехе
+                        </p>
+                    </div>
+                    <!-- /.programm-grid__wrap-item -->
+                    <span class="programm-grid__obj"></span>
+                </div>
+                <!-- /.programm-grid__item -->
+
+                <div class="programm-grid__item item--6">
+                    <span class="programm-grid__obj"></span>
+                    <div class="programm-grid__wrap-item">
+                        <h3 class="programm-grid__title">Неделя №6</h3>
+                        <p class="programm-grid__text">
+                            Красивая часть курса, которая помогает в успехе
+                        </p>
+                    </div>
+                    <!-- /.programm-grid__wrap-item -->
+                </div>
+                <!-- /.programm-grid__item -->
+
+                <div class="programm-grid__item programm-grid__item--left item--7">
+                    <div class="programm-grid__wrap-item">
+                        <h3 class="programm-grid__title">Неделя №7</h3>
+                        <p class="programm-grid__text">
+                            Красивая часть курса, которая помогает в успехе
+                        </p>
+                    </div>
+                    <!-- /.programm-grid__wrap-item -->
+                    <span class="programm-grid__obj"></span>
+                </div>
+                <!-- /.programm-grid__item -->
+
+            </div>
+            <!-- /.programm-grid -->
+        </div>
+        <!-- /.programm-wrapper -->
+    </section>
+    <!-- /.programm -->
+
+    <section class="teachers">
+        <div class="container">
+            <div class="teachers-first">
+                <img src="image/teachers/teachers-logo.svg" alt="logo: teachers-first" class="teachers-first__logo">
+                <h2 class="teachers-first__title">Ваши преподаватели</h2>
+            </div>
+            <!-- /.teachers-first -->
+
+            <div class="teachers-wrapper">
+                <div class="teachers-card">
+                    <img src="image/teachers/teacher-1.png" alt="Photo: teacher-1" class="teachers-card__image">
+                    <h3 class="teachers-card__name">Дмитрий Иванов</h3>
+                    <span class="teachers-card__skill">Специалист по видеокартам</span>
+                    <a href="#" class="teachers-card__bio">Биография</a>
+                </div>
+                <!-- /.teachers-card -->
+
+                <div class="teachers-card">
+                    <img src="image/teachers/teacher-2.png" alt="Photo: teacher-2" class="teachers-card__image">
+                    <h3 class="teachers-card__name">Дмитрий Иванов</h3>
+                    <span class="teachers-card__skill">Специалист по видеокартам</span>
+                    <a href="#" class="teachers-card__bio">Биография</a>
+                </div>
+                <!-- /.teachers-card -->
+
+                <div class="teachers-card">
+                    <img src="image/teachers/teacher-3.png" alt="Photo: teacher-3" class="teachers-card__image">
+                    <h3 class="teachers-card__name">Дмитрий Иванов</h3>
+                    <span class="teachers-card__skill">Специалист по видеокартам</span>
+                    <a href="#" class="teachers-card__bio">Биография</a>
+                </div>
+                <!-- /.teachers-card -->
+            </div>
+            <!-- /.teachers-wrapper -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.teachers -->
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <h2 class="footer__title">Статьи каждую неделю</h2>
+            <p class="footer__text">
+                Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+            </p>
+
+            <form action="#" class="footer-form">
+                <input type="email" class="footer-form__input" placeholder="E-mail">
+                <button class="footer-form__button">Подписаться</button>
+            </form>
+
+            <div class="footer-social">
+                <a href="#" class="footer-social__item">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="25" fill="url(#paint0_linear)" />
+                        <g clip-path="url(#clip0)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M34.3624 27.7577C34.3624 27.7577 36.3028 29.6741 36.7828 30.5609C36.7921 30.5736 36.7994 30.5878 36.8044 30.6029C37 30.9305 37.048 31.1873 36.952 31.3769C36.79 31.6901 36.2416 31.8473 36.0556 31.8605H32.626C32.3872 31.8605 31.8904 31.7981 31.2856 31.3805C30.8236 31.0577 30.364 30.5261 29.9188 30.0065C29.254 29.2349 28.6792 28.5653 28.0972 28.5653C28.0237 28.5651 27.9507 28.5773 27.8812 28.6013C27.4408 28.7405 26.8816 29.3681 26.8816 31.0397C26.8816 31.5629 26.4688 31.8605 26.1796 31.8605H24.6088C24.0736 31.8605 21.2872 31.6733 18.8164 29.0681C15.7888 25.8785 13.0696 19.48 13.0432 19.4236C12.874 19.0096 13.2292 18.784 13.6132 18.784H17.0764C17.5408 18.784 17.692 19.0648 17.7976 19.3168C17.92 19.606 18.3736 20.7628 19.1176 22.0624C20.3224 24.1768 21.0628 25.0373 21.6544 25.0373C21.7655 25.0376 21.8748 25.0086 21.9712 24.9533C22.744 24.5285 22.6 21.7684 22.564 21.1996C22.564 21.0892 22.5628 19.9672 22.1668 19.4248C21.8836 19.036 21.4012 18.8848 21.1096 18.8296C21.1876 18.7168 21.3532 18.544 21.5656 18.442C22.0948 18.178 23.0512 18.1396 24.0004 18.1396H24.5272C25.5568 18.154 25.8232 18.22 26.1976 18.3148C26.9512 18.4948 26.9656 18.9832 26.8996 20.6464C26.8804 21.1216 26.86 21.6568 26.86 22.2868C26.86 22.4212 26.854 22.5712 26.854 22.7236C26.8312 23.5768 26.8012 24.5381 27.4036 24.9329C27.4817 24.9815 27.5719 25.0073 27.664 25.0072C27.8728 25.0072 28.498 25.0072 30.1936 22.0972C30.9376 20.812 31.5136 19.2964 31.5532 19.1824C31.5868 19.1188 31.6876 18.94 31.81 18.868C31.8971 18.8217 31.9946 18.7986 32.0932 18.8008H36.1672C36.6112 18.8008 36.9124 18.868 36.9712 19.036C37.0696 19.3084 36.952 20.14 35.092 22.6552C34.7788 23.074 34.504 23.4365 34.2628 23.7533C32.5768 25.9661 32.5768 26.0777 34.3624 27.7577Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="5.1105" y1="-5.43152e-06" x2="48.2386" y2="3.21466"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#C89AFC" />
+                                <stop offset="1" stop-color="#7C6AFA" />
+                            </linearGradient>
+                            <clipPath id="clip0">
+                                <rect x="13" y="13" width="24" height="24" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <!-- /.footer-social__item -->
+                
+                <a href="#" class="footer-social__item">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="25" fill="url(#paint0_linear)" />
+                        <path
+                            d="M35.0575 19.9451C34.938 19.5012 34.7039 19.0964 34.3788 18.7713C34.0537 18.4462 33.6489 18.2121 33.205 18.0926C31.57 17.6501 25 17.6501 25 17.6501C25 17.6501 18.43 17.6501 16.795 18.0926C16.351 18.2121 15.9462 18.4462 15.6211 18.7713C15.296 19.0964 15.062 19.5012 14.9425 19.9451C14.6372 21.6126 14.489 23.305 14.5 25.0001C14.489 26.6953 14.6372 28.3877 14.9425 30.0551C15.062 30.4991 15.296 30.9039 15.6211 31.229C15.9462 31.5541 16.351 31.7881 16.795 31.9076C18.43 32.3501 25 32.3501 25 32.3501C25 32.3501 31.57 32.3501 33.205 31.9076C33.6489 31.7881 34.0537 31.5541 34.3788 31.229C34.7039 30.9039 34.938 30.4991 35.0575 30.0551C35.3627 28.3877 35.5109 26.6953 35.5 25.0001C35.5109 23.305 35.3627 21.6126 35.0575 19.9451ZM22.9 28.1501V21.8501L28.3525 25.0001L22.9 28.1501Z"
+                            fill="white" />
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="5.1105" y1="-5.43152e-06" x2="48.2386" y2="3.21466"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#C89AFC" />
+                                <stop offset="1" stop-color="#7C6AFA" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+                <!-- /.footer-social__item -->
+                
+                <a href="#" class="footer-social__item">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="25" fill="url(#paint0_linear)" />
+                        <path
+                            d="M26.397 33.9969V25.8009H29.162L29.573 22.5919H26.397V20.5479C26.397 19.6219 26.655 18.9879 27.984 18.9879H29.668V16.1269C28.8487 16.0391 28.0251 15.9967 27.201 15.9999C24.757 15.9999 23.079 17.4919 23.079 20.2309V22.5859H20.332V25.7949H23.085V33.9969H26.397Z"
+                            fill="white" />
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="5.1105" y1="-5.43152e-06" x2="48.2386" y2="3.21466"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#C89AFC" />
+                                <stop offset="1" stop-color="#7C6AFA" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+                <!-- /.footer-social__item -->
+                
+                <a href="#" class="footer-social__item">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="25" fill="url(#paint0_linear)" />
+                        <path
+                            d="M29.5 13H20.5C16.3585 13 13 16.3585 13 20.5V29.5C13 33.6415 16.3585 37 20.5 37H29.5C33.6415 37 37 33.6415 37 29.5V20.5C37 16.3585 33.6415 13 29.5 13ZM34.75 29.5C34.75 32.395 32.395 34.75 29.5 34.75H20.5C17.605 34.75 15.25 32.395 15.25 29.5V20.5C15.25 17.605 17.605 15.25 20.5 15.25H29.5C32.395 15.25 34.75 17.605 34.75 20.5V29.5Z"
+                            fill="white" />
+                        <path
+                            d="M25 19C21.6865 19 19 21.6865 19 25C19 28.3135 21.6865 31 25 31C28.3135 31 31 28.3135 31 25C31 21.6865 28.3135 19 25 19ZM25 28.75C22.933 28.75 21.25 27.067 21.25 25C21.25 22.9315 22.933 21.25 25 21.25C27.067 21.25 28.75 22.9315 28.75 25C28.75 27.067 27.067 28.75 25 28.75Z"
+                            fill="white" />
+                        <defs>
+                            <linearGradient id="paint0_linear" x1="5.1105" y1="-5.43152e-06" x2="48.2386" y2="3.21466"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#C89AFC" />
+                                <stop offset="1" stop-color="#7C6AFA" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+                <!-- /.footer-social__item -->
+                
+            </div>
+            <!-- /.footer-social -->
+        </div>
+        <!-- /.footer-wrapper -->
+    </footer>
+    <!-- /.footer -->
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+@media ( max-width: 1200px )
+    .container
+        max-width: 960px
+    .header
+        &-wrapper
+            max-width: 960px
+        &-bottom
+            &__wrapper
+                flex-wrap: wrap
+    .navbar
+        &-menu
+            &__wrapper
+                max-width: 550px
+    .progress
+        width: 100%
+    .about
+        &-wrapper
+            flex-direction: column
+            align-items: center
+        &-image
+            margin-bottom: 80px
+        &-description
+            text-align: center
+    .advantages
+        flex-direction: column
+        align-items: center
+        &__item
+            margin-bottom: 50px
+    .brends
+        &-wrapper
+            &__item
+                width: 50%
+                &--it2
+                    border-right: none
+                &--it5
+                    border-bottom: 1px solid rgba($color-light, 0.3)
+                &--it6
+                    border-right: none
+                    border-bottom: 1px solid rgba($color-light, 0.3)
+    .teachers
+        &-wrapper
+            flex-direction: column
+        &-card
+            margin-bottom: 60px
+@media ( max-width: 992px )
+    .container
+        max-width: 700px
+    .header
+        &-main
+            margin-top: 50px
+        &-wrapper
+            max-width: 700px
+    .navbar
+        &--mobile
+            &_fixed
+                position: fixed
+                top: 0
+                left: 0
+                right: 0
+                padding-top: 20px
+                z-index: 99
+        &-menu
+            flex-direction: column
+            padding-top: 30px
+            &__item
+                margin-bottom: 30px
+            &__wrapper
+                display: none
+                position: fixed
+                top: 80px
+                left: 0
+                right: 0
+                background-color: $color-dark
+    .visible
+        display: block
+    .menu
+        &-btn
+            display: flex
+            width: 30px
+            height: 18px
+            padding: 0
+            margin: 0
+            align-items: center
+            justify-content: space-between
+            flex-direction: column
+            border: none
+            background-color: transparent
+            cursor: pointer
+            &__line
+                width: 30px
+                height: 2px
+                background-color: $color-light
+@media ( max-width: 768px )
+    .container
+        max-width: 576px
+        width: 92%
+    .header
+        &-wrapper
+            max-width: 576px
+            width: 92%
+    .footer
+        &-wrapper
+            max-width: 576px
+            width: 92%
+        &-form
+            &__input
+                max-width: 255px
+    .about
+        &-description
+            width: 92%
+    .start-info
+        flex-direction: column
+        &__item
+            height: 100px
+            margin-bottom: 50px
+        &__object
+            display: none
+    .programm
+        &-wrapper
+            max-width: 576px
+            width: 92%
+        &-first
+            &__text
+                max-width: 576px
+                width: 92%
+        &-grid
+            max-width: 576px
+            width: 92%
+            &__item
+                width: 92%
+            &__text
+                width: 92%
+@media ( max-width: 576px )
+    .header
+        &-timer
+            width: 100%
+            &__item
+                padding: 15px
+        &-main
+            &__title
+                font-size: 44px
+            &__subtitle
+                font-size: 38px
+    .about
+        &-image
+            width: 100%
+        &-description
+            &__title
+                font-size: 40px
+    .fast-start
+        &__text
+            width: 100%
+    .start-first
+        flex-direction: column
+        &__title
+            margin-top: 30px
+            font-size: 40px
+    .advantages
+        &__item
+            width: 100%
+    .brends
+        &-first
+            flex-direction: column
+            &__title
+                margin-top: 30px
+                font-size: 40px
+    .programm
+        &-grid
+            width: 100%
+            grid-template-rows: repeat(7, 140px)
+    .item
+        &--1
+            grid-column-start: 1
+            grid-column-end: 4
+            grid-row-start: 1
+            grid-row-end: 2
+        &--2
+            grid-column-start: 1
+            grid-column-end: 4
+            grid-row-start: 2
+            grid-row-end: 3
+        &--3
+            grid-column-start: 1
+            grid-column-end: 4
+            grid-row-start: 3
+            grid-row-end: 4
+        &--4
+            grid-column-start: 1
+            grid-column-end: 4
+            grid-row-start: 4
+            grid-row-end: 5
+        &--5
+            grid-column-start: 1
+            grid-column-end: 4
+            grid-row-start: 5
+            grid-row-end: 6
+        &--6
+            grid-column-start: 1
+            grid-column-end: 4
+            grid-row-start: 6
+            grid-row-end: 7
+        &--7
+            grid-column-start: 1
+            grid-column-end: 4
+            grid-row-start: 7
+            grid-row-end: 8
+    .vertical
+        &-line
+            display: none
+    .teachers
+        &-first
+            flex-direction: column
+            &__title
+                font-size: 40px
+    .footer
+        &-form
+            &__input
+                max-width: 100%
+                border-radius: 50px
+            &__button
+                position: initial
+                width: 100%
+                margin-top: 20px
+        &__text
+            max-width: 100%
+        &-social
+            max-width: 100%
